@@ -103,8 +103,8 @@ export default function Services() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="heading-display text-3xl md:text-5xl text-white mb-4 leading-tight">
-              Four pillars. One partner.
+            <h1 className=" text-center heading-display text-3xl md:text-5xl text-white mb-4 leading-tight">
+              Four Core services in one creative technology company
             </h1>
             <p className="text-white/75 text-lg leading-relaxed">
               From custom software, bulk SMS and film production to digital eCards for events, we
@@ -421,7 +421,7 @@ export default function Services() {
               <div className="w-14 h-14 rounded-2xl bg-pink-500/15 text-pink-700 flex items-center justify-center mb-5">
                 <Gift className="w-7 h-7" />
               </div>
-              <h2 className="text-center heading-display text-3xl md:text-4xl text-navy mb-4">
+              <h2 className="heading-display text-3xl md:text-4xl text-navy mb-4">
                 eCard and Event Invitations
               </h2>
               <p className="text-navy/65 text-lg leading-relaxed mb-6">
