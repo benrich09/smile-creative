@@ -72,7 +72,7 @@ export default function Home() {
               <motion.h1
                 custom={0}
                 variants={fadeUp}
-                className=" text-centerheading-display text-3xl sm:text-4xl lg:text-[2.85rem] text-white leading-[1.15] mb-6"
+                className=" text-center heading-display text-3xl sm:text-4xl lg:text-[2.85rem] text-white leading-[1.15] mb-6"
               >
                 Turning ideas into{' '}
                 <span className="text-gold">digital experiences</span>, powerful
