@@ -138,18 +138,6 @@ export default function Team() {
           </div>
         </div>
       </section>
-
-      <section className="section-padding bg-navy/[0.03]">
-        <div className="container-custom text-center">
-          <h2 className="heading-display text-3xl text-navy mb-3">Want to join the team?</h2>
-          <p className="text-navy/65 mb-7 max-w-lg mx-auto">
-            We’re always interested in talented people who care about craft and impact.
-          </p>
-          <Link to="/contact" className="btn-navy">
-            Get in Touch <ArrowRight size={18} />
-          </Link>
-        </div>
-      </section>
     </div>
   )
 }

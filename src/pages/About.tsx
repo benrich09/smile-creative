@@ -206,18 +206,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="section-padding gradient-navy">
-        <div className="container-custom text-center">
-          <h2 className="heading-display text-3xl text-white mb-3">Ready to work together?</h2>
-          <p className="text-white/70 mb-7 max-w-lg mx-auto">
-            Let’s discuss how Smile Creative can help you connect, engage and grow.
-          </p>
-          <Link to="/start-project" className="btn-primary">
-            Start a Project <ArrowRight size={18} />
-          </Link>
-        </div>
-      </section>
     </div>
   )
 }
