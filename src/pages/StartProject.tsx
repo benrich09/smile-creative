@@ -9,6 +9,7 @@ import {
   Handshake,
   CheckCircle2,
   Send,
+  Gift,
 } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
@@ -56,8 +57,14 @@ const categories = [
   {
     id: 'film',
     icon: Film,
-    title: 'Film & Media',
+    title: 'Film and Media',
     desc: 'Video, photo, or full production',
+  },
+  {
+    id: 'ecard',
+    icon: Gift,
+    title: 'eCard and Events',
+    desc: 'Digital invitations and event cards',
   },
   {
     id: 'collaboration',
@@ -153,7 +160,7 @@ export default function StartProject() {
               Start a project
             </h1>
             <p className="text-white/75 leading-relaxed">
-              Answer a few questions so we can understand your needs — whether it’s a full build,
+              Answer a few questions so we can understand your needs, whether it’s a full build,
               SMS access, film production, or a collaboration.
             </p>
           </motion.div>
@@ -270,9 +277,9 @@ export default function StartProject() {
                   transition={{ duration: 0.3 }}
                   className="space-y-5"
                 >
-                  <h2 className="text-xl font-semibold text-navy mb-2">Scope & collaboration</h2>
+                  <h2 className="text-xl font-semibold text-navy mb-2">Scope and collaboration</h2>
                   <p className="text-navy/60 text-sm mb-4">
-                    Optional details that help us plan — you can skip any field.
+                    Optional details that help us plan, and you can skip any field.
                   </p>
                   <div>
                     <label className="block text-sm font-medium text-navy mb-1.5">
@@ -305,7 +312,7 @@ export default function StartProject() {
                     >
                       <option value="">Select</option>
                       <option value="yes">Yes, interested in collaborating</option>
-                      <option value="client">No — client project only</option>
+                      <option value="client">No, client project only</option>
                       <option value="maybe">Open to discussing</option>
                     </select>
                   </div>

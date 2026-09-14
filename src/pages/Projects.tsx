@@ -21,9 +21,9 @@ const projects: Project[] = [
     id: 1,
     title: 'Enterprise Operations Platform',
     summary:
-      'Custom web application for workflow management, reporting, and team collaboration across departments.',
+      'Custom web application for workflow management, reporting and team collaboration across departments.',
     description:
-      'We designed and built a full operations platform that replaced spreadsheets and email chains with clear workflows, role-based access, and live dashboards. The system integrates with existing tools and scales as the organization grows.',
+      'We designed and built a full operations platform that replaced spreadsheets and email chains with clear workflows, role-based access and live dashboards. The system integrates with existing tools and scales as the organization grows.',
     category: 'Software',
     services: ['Web App', 'Dashboard', 'API Integration'],
     outcomes: ['Faster approvals', 'Single source of truth', 'Reduced manual work'],
@@ -35,7 +35,7 @@ const projects: Project[] = [
     summary:
       'Bulk SMS campaigns and transactional alerts that increased customer retention and repeat purchases.',
     description:
-      'Using our SMS platform, we set up promotional campaigns, birthday offers, and order updates for a retail brand. Contact lists, scheduling, and delivery reports were managed from one dashboard.',
+      'Using our SMS platform, we set up promotional campaigns, birthday offers and order updates for a retail brand. Contact lists, scheduling and delivery reports were managed from one dashboard.',
     category: 'SMS',
     services: ['Marketing SMS', 'OTP', 'Campaigns'],
     outcomes: ['Higher repeat visits', 'Reliable OTP delivery', 'Clear campaign analytics'],
@@ -45,7 +45,7 @@ const projects: Project[] = [
     id: 3,
     title: 'Brand Documentary Series',
     summary:
-      'Multi-episode corporate documentary capturing company culture, leadership, and customer stories.',
+      'Multi-episode corporate documentary capturing company culture, leadership and customer stories.',
     description:
       'From concept and interviews to shoot and final grade, we produced a documentary series that the client used for internal culture and external brand storytelling across digital channels.',
     category: 'Film',
@@ -57,9 +57,9 @@ const projects: Project[] = [
     id: 4,
     title: 'Fintech Mobile Experience',
     summary:
-      'Secure mobile banking experience with real-time transactions, biometric auth, and clean UI.',
+      'Secure mobile banking experience with real-time transactions, biometric auth and clean UI.',
     description:
-      'We worked on the product layer — flows, UI, and integrations — so customers could manage accounts and payments with clarity and trust. Security and performance were priorities throughout.',
+      'We worked on the product layer, flows, UI and integrations, so customers could manage accounts and payments with clarity and trust. Security and performance were priorities throughout.',
     category: 'Software',
     services: ['Mobile App', 'UX/UI', 'Security'],
     outcomes: ['Smoother onboarding', 'Trusted transactions', 'Consistent brand UI'],
@@ -69,9 +69,9 @@ const projects: Project[] = [
     id: 5,
     title: 'School Communication System',
     summary:
-      'Institution-wide alerts for parents and staff — attendance, events, emergencies, and announcements.',
+      'Institution-wide alerts for parents and staff, attendance, events, emergencies and announcements.',
     description:
-      'Schools use our SMS software to reach parents and staff quickly. Groups, templates, and scheduled messages keep communication clear without extra admin load.',
+      'Schools use our SMS software to reach parents and staff quickly. Groups, templates and scheduled messages keep communication clear without extra admin load.',
     category: 'SMS',
     services: ['Alerts', 'Bulk Messaging', 'Scheduling'],
     outcomes: ['Faster parent reach', 'Fewer missed notices', 'Simple admin tools'],
@@ -83,7 +83,7 @@ const projects: Project[] = [
     summary:
       'High-impact TVC and digital ads for a consumer product launch across broadcast and social.',
     description:
-      'We handled creative direction, production, and post — delivering cuts optimized for TV and social so the launch felt consistent everywhere the brand showed up.',
+      'We handled creative direction, production and post, delivering cuts optimized for TV and social so the launch felt consistent everywhere the brand showed up.',
     category: 'Film',
     services: ['Commercial', 'Motion Graphics', 'Edit'],
     outcomes: ['Launch-ready assets', 'Multi-format delivery', 'Clear product story'],
@@ -93,9 +93,9 @@ const projects: Project[] = [
     id: 7,
     title: 'Healthcare Patient Portal',
     summary:
-      'Patient-facing portal with appointment booking, records access, and secure messaging.',
+      'Patient-facing portal with appointment booking, records access and secure messaging.',
     description:
-      'A secure web portal that helps patients book visits, view key information, and stay in touch with the clinic — designed for clarity and compliance-minded workflows.',
+      'A secure web portal that helps patients book visits, view key information and stay in touch with the clinic, designed for clarity and compliance-minded workflows.',
     category: 'Software',
     services: ['Web App', 'Integration', 'Compliance'],
     outcomes: ['Fewer phone queues', 'Better patient self-service', 'Clear audit trails'],
@@ -105,9 +105,9 @@ const projects: Project[] = [
     id: 8,
     title: 'Music Video Production',
     summary:
-      'Full production for an independent artist — concept, shoot, edit, and color grading.',
+      'Full production for an independent artist, concept, shoot, edit and color grading.',
     description:
-      'We partnered on concept, cinematography, and post-production to deliver a music video that matched the artist’s sound and visual identity.',
+      'We partnered on concept, cinematography and post-production to deliver a music video that matched the artist’s sound and visual identity.',
     category: 'Film',
     services: ['Music Video', 'Cinematography', 'Post'],
     outcomes: ['Strong visual identity', 'Platform-ready masters', 'Creative collaboration'],
@@ -141,10 +141,10 @@ export default function Projects() {
             transition={{ duration: 0.5 }}
           >
             <h1 className="heading-display text-3xl md:text-5xl text-white mb-4 leading-tight">
-              Selected projects & collaborations
+              Selected projects and collaborations
             </h1>
             <p className="text-white/75 text-lg leading-relaxed">
-              A look at the software products, messaging campaigns, and film productions we’ve
+              A look at the software products, messaging campaigns and film productions we’ve
               delivered for clients across industries.
             </p>
           </motion.div>

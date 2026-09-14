@@ -13,7 +13,8 @@ const quickLinks = [
 const services = [
   { name: 'Software Development', path: '/services#software' },
   { name: 'Bulk SMS Services', path: '/services#sms' },
-  { name: 'Film & Media Production', path: '/services#film' },
+  { name: 'Film and Media Production', path: '/services#film' },
+  { name: 'eCard and Events', path: '/services#ecard' },
 ] as const
 
 export default function Footer() {
@@ -38,7 +39,7 @@ export default function Footer() {
               <span className="font-display text-xl font-semibold">Smile Creative</span>
             </Link>
             <p className="text-white/65 text-sm leading-relaxed max-w-xs">
-              Creative technology company delivering software development, bulk SMS, and
+              Creative technology company delivering software development, bulk SMS and
               professional film production across Tanzania and beyond.
             </p>
             <div className="flex gap-2.5 pt-1">
@@ -166,16 +167,6 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-
-            {/* Motto on the right */}
-            <div className="pt-2 border-t border-white/10">
-              <p className="font-display text-lg text-gold tracking-wide">
-                Connect · Engage · Grow
-              </p>
-              <p className="text-white/45 text-xs mt-1">
-                Technology · Communication · Storytelling
-              </p>
-            </div>
           </div>
         </div>
 
@@ -183,14 +174,17 @@ export default function Footer() {
           <p className="text-white/45 text-sm">
             © {year} Smile Creative. All rights reserved.
           </p>
-          <div className="flex gap-6 text-sm text-white/45">
-            <a href="#" className="hover:text-gold transition-colors">
-              Privacy Policy
-            </a>
-            <a href="#" className="hover:text-gold transition-colors">
-              Terms of Service
-            </a>
-          </div>
+          
+            {/* Motto on the right */}
+            <div className="pt-2 sm:pt-0 text-center sm:text-right">
+              <p className="font-display text-lg text-gold tracking-wide">
+                Connect · Engage · Grow
+              </p>
+              <p className="text-white/45 text-xs mt-1">
+                Technology · Communication · Storytelling
+              </p>
+            </div>
+
         </div>
       </div>
     </footer>

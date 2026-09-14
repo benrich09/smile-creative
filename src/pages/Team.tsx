@@ -14,7 +14,7 @@ const team: TeamMember[] = [
   {
     name: 'Michael Richard',
     role: 'Founder / Creative Director',
-    bio: 'Leads company vision, creative direction, and major projects. Passionate about blending technology with storytelling.',
+    bio: 'Leads company vision, creative direction and major projects. Passionate about blending technology with storytelling.',
     initials: 'MR',
     color: 'bg-gold text-navy',
   },
@@ -28,28 +28,42 @@ const team: TeamMember[] = [
   {
     name: 'Michael Richard',
     role: 'Film Director / Producer',
-    bio: 'Oversees storytelling, production, and creative execution. Brings cinematic vision to every project.',
+    bio: 'Oversees storytelling, production and creative execution. Brings cinematic vision to every project.',
     initials: 'MR',
     color: 'bg-violet-500 text-white',
   },
   {
-    name: 'Mosses Togo',
+    name: 'Octavian Mbeki',
     role: 'Photographer',
-    bio: 'Handles camera, lighting, composition, and visual production with an eye for emotion and detail.',
-    initials: 'MT',
+    bio: 'Handles camera, lighting, composition and visual production with an eye for emotion and detail.',
+    initials: 'OM',
     color: 'bg-rose-500 text-white',
   },
   {
+    name: 'Mosses Togo',
+    role: 'Editor / Post-Production',
+    bio: 'Handles editing, color grading and finishing to bring stories to life with polish and clarity.',
+    initials: 'MT',
+    color: 'bg-amber-500 text-white',
+  },
+  {
     name: 'Pares Lucian',
-    role: 'Graphics',
-    bio: 'Creates motion graphics, visual design, and post-production finishes that bring stories and brands to life.',
+    role: 'Graphics Design',
+    bio: 'Creates motion graphics, visual design and brand assets that support film, digital and event work.',
     initials: 'PL',
     color: 'bg-emerald-500 text-white',
   },
   {
+    name: 'Victor Mmari',
+    role: 'eCard and Events',
+    bio: 'Designs digital eCards and supports event invitations, RSVPs and celebration messaging for clients.',
+    initials: 'VM',
+    color: 'bg-pink-500 text-white',
+  },
+  {
     name: 'Ben Rich',
-    role: 'SMS & Digital Solutions',
-    bio: 'Manages messaging solutions, campaigns, and communication platforms for maximum reach and impact.',
+    role: 'SMS and Digital Solutions',
+    bio: 'Manages messaging solutions, campaigns and communication platforms for maximum reach and impact.',
     initials: 'BR',
     color: 'bg-teal-600 text-white',
   },
@@ -69,8 +83,8 @@ export default function Team() {
               The people behind the work
             </h1>
             <p className="text-white/75 text-lg leading-relaxed">
-              A multidisciplinary team of developers, producers, cinematographers, and communication
-              specialists united by craft and client success.
+              A multidisciplinary team of developers, producers, photographers, designers and
+              communication specialists united by craft and client success.
             </p>
           </motion.div>
         </div>
@@ -78,7 +92,7 @@ export default function Team() {
 
       <section className="section-padding bg-white">
         <div className="container-custom">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 lg:gap-6">
             {team.map((member, i) => (
               <motion.div
                 key={`${member.name}-${member.role}`}

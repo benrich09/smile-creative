@@ -44,12 +44,12 @@ const values = [
   {
     icon: Target,
     title: 'Customer Focus',
-    desc: 'Your goals drive our process — we listen, adapt, and deliver.',
+    desc: 'Your goals drive our process and we listen, adapt and deliver.',
   },
   {
     icon: RefreshCw,
     title: 'Continuous Improvement',
-    desc: 'We never stop learning, refining, and growing with our clients.',
+    desc: 'We never stop learning, refining and growing with our clients.',
   },
 ]
 
@@ -62,12 +62,12 @@ const pillars = [
   {
     icon: MessageSquare,
     title: 'SMS',
-    text: 'Our own messaging platform for campaigns, OTPs, and alerts.',
+    text: 'Our own messaging platform for campaigns, OTPs and alerts.',
   },
   {
     icon: Film,
     title: 'Film',
-    text: 'Stories that look and feel professional — from shoot to final cut.',
+    text: 'Stories that look and feel professional, from shoot to final cut.',
   },
 ]
 
@@ -90,8 +90,8 @@ export default function About() {
             </h1>
             <p className="text-white/75 text-lg leading-relaxed">
               Smile Creative is a creative technology company based in Dar es Salaam. We develop
-              digital solutions, enable effective communication through our bulk SMS platform, and
-              produce high-quality visual content — helping clients build stronger brands and
+              digital solutions, enable effective communication through our bulk SMS platform and
+              produce high-quality visual content, helping clients build stronger brands and
               achieve their goals.
             </p>
           </motion.div>
@@ -122,7 +122,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* Mission & Vision */}
+      {/* Mission and Vision */}
       <section className="section-padding bg-navy/[0.03]">
         <div className="container-custom">
           <div className="grid md:grid-cols-2 gap-6">
@@ -139,7 +139,7 @@ export default function About() {
                 <h2 className="text-xl font-semibold text-navy">Our Mission</h2>
               </div>
               <p className="text-navy/65 leading-relaxed">
-                To deliver innovative technology, communication, and creative media solutions that
+                To deliver innovative technology, communication and creative media solutions that
                 create meaningful value for our clients and their audiences.
               </p>
             </motion.div>
@@ -159,7 +159,7 @@ export default function About() {
               </div>
               <p className="text-navy/65 leading-relaxed">
                 To become a trusted and innovative creative technology company recognized for
-                transforming ideas into impactful digital products, communication solutions, and
+                transforming ideas into impactful digital products, communication solutions and
                 visual stories.
               </p>
             </motion.div>
@@ -211,7 +211,7 @@ export default function About() {
         <div className="container-custom text-center">
           <h2 className="heading-display text-3xl text-white mb-3">Ready to work together?</h2>
           <p className="text-white/70 mb-7 max-w-lg mx-auto">
-            Let’s discuss how Smile Creative can help you connect, engage, and grow.
+            Let’s discuss how Smile Creative can help you connect, engage and grow.
           </p>
           <Link to="/start-project" className="btn-primary">
             Start a Project <ArrowRight size={18} />

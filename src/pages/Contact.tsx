@@ -63,7 +63,7 @@ export default function Contact() {
               Let’s start a conversation
             </h1>
             <p className="text-white/75 text-lg leading-relaxed">
-              Projects, support, suggestions, or partnership — tell us what you need and we’ll get
+              Projects, support, suggestions, or partnership, tell us what you need and we’ll get
               back to you shortly.
             </p>
           </motion.div>
@@ -314,7 +314,7 @@ export default function Contact() {
                   <Instagram size={18} className="text-gold" />
                   <div>
                     <p className="text-sm font-medium text-navy">@smilestudio.tz</p>
-                    <p className="text-xs text-navy/50">Studio & film</p>
+                    <p className="text-xs text-navy/50">Studio and film</p>
                   </div>
                 </a>
                 <a
@@ -326,7 +326,7 @@ export default function Contact() {
                   <Instagram size={18} className="text-gold" />
                   <div>
                     <p className="text-sm font-medium text-navy">@smile.notify</p>
-                    <p className="text-xs text-navy/50">SMS & digital</p>
+                    <p className="text-xs text-navy/50">SMS and digital</p>
                   </div>
                 </a>
               </motion.div>
