@@ -59,7 +59,7 @@ export default function Contact() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="heading-display text-3xl md:text-5xl text-white mb-4 leading-tight">
+            <h1 className=" text-center heading-display text-3xl md:text-5xl text-white mb-4 leading-tight">
               Let’s start a conversation
             </h1>
             <p className="text-white/75 text-lg leading-relaxed">

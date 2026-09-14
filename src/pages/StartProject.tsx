@@ -128,7 +128,7 @@ export default function StartProject() {
             <div className="w-16 h-16 rounded-full bg-emerald-500/15 flex items-center justify-center mx-auto mb-5">
               <CheckCircle2 className="w-8 h-8 text-emerald-600" />
             </div>
-            <h1 className="heading-display text-2xl text-navy mb-3">Request received</h1>
+            <h1 className=" text-center heading-display text-2xl text-navy mb-3">Request received</h1>
             <p className="text-navy/65 mb-6 leading-relaxed">
               Thank you. Our team will review your project request and contact you within one
               business day via email or WhatsApp.

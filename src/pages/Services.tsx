@@ -421,7 +421,7 @@ export default function Services() {
               <div className="w-14 h-14 rounded-2xl bg-pink-500/15 text-pink-700 flex items-center justify-center mb-5">
                 <Gift className="w-7 h-7" />
               </div>
-              <h2 className="heading-display text-3xl md:text-4xl text-navy mb-4">
+              <h2 className="text-center heading-display text-3xl md:text-4xl text-navy mb-4">
                 eCard and Event Invitations
               </h2>
               <p className="text-navy/65 text-lg leading-relaxed mb-6">

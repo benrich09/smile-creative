@@ -85,7 +85,7 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="heading-display text-3xl md:text-5xl text-white mb-5 leading-tight">
+            <h1 className=" text-center heading-display text-3xl md:text-5xl text-white mb-5 leading-tight">
               Creative technology. Real impact.
             </h1>
             <p className="text-white/75 text-lg leading-relaxed">
