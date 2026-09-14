@@ -40,39 +40,39 @@ interface ServiceItem {
 }
 
 const softwareItems: ServiceItem[] = [
-  { icon: Globe, name: 'Website Design and Development' },
+  { icon: Globe, name: 'Website Design & Development' },
   { icon: Code2, name: 'Web Application Development' },
   { icon: Smartphone, name: 'Mobile Application Development' },
-  { icon: Building2, name: 'Business and Management Systems' },
+  { icon: Building2, name: 'Business & Management Systems' },
   { icon: Settings, name: 'Custom Software Solutions' },
-  { icon: Database, name: 'Database Design and Integration' },
-  { icon: Server, name: 'API and System Integration' },
-  { icon: Wrench, name: 'Maintenance and Technical Support' },
+  { icon: Database, name: 'Database Design & Integration' },
+  { icon: Server, name: 'API & System Integration' },
+  { icon: Wrench, name: 'Maintenance & Technical Support' },
 ]
 
 const smsItems: ServiceItem[] = [
-  { icon: Megaphone, name: 'Promotional and Marketing SMS' },
+  { icon: Megaphone, name: 'Promotional & Marketing SMS' },
   { icon: MessageSquare, name: 'Transactional SMS' },
-  { icon: ShieldCheck, name: 'OTP and Verification Messages' },
-  { icon: Calendar, name: 'Event and Appointment Reminders' },
+  { icon: ShieldCheck, name: 'OTP & Verification Messages' },
+  { icon: Calendar, name: 'Event & Appointment Reminders' },
   { icon: Bell, name: 'Customer Notifications' },
-  { icon: Users, name: 'School and Organization Alerts' },
+  { icon: Users, name: 'School & Organization Alerts' },
   { icon: Settings, name: 'SMS Campaign Support' },
   { icon: Building2, name: 'Bulk Messaging for Businesses' },
 ]
 
 const filmItems: ServiceItem[] = [
   { icon: Video, name: 'Corporate Videos' },
-  { icon: MonitorPlay, name: 'Commercials and TVC' },
+  { icon: MonitorPlay, name: 'Commercials & TVC' },
   { icon: Camera, name: 'Event Coverage' },
-  { icon: Clapperboard, name: 'Wedding Photo and Video' },
+  { icon: Clapperboard, name: 'Wedding Photo & Video' },
   { icon: Music, name: 'Music Videos' },
-  { icon: Film, name: 'Short and Creative Films' },
+  { icon: Film, name: 'Short & Creative Films' },
   { icon: FileVideo, name: 'Documentaries' },
   { icon: Radio, name: 'Live Streaming' },
   { icon: Plane, name: 'Drone Videography' },
-  { icon: Palette, name: 'Editing and Color Grading' },
-  { icon: Sparkles, name: 'Motion Graphics and VFX' },
+  { icon: Palette, name: 'Editing & Color Grading' },
+  { icon: Sparkles, name: 'Motion Graphics & VFX' },
   { icon: Camera, name: 'Photography' },
 ]
 
@@ -87,12 +87,12 @@ export default function Services() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className=" text-center heading-display text-3xl md:text-5xl text-white mb-4 leading-tight">
+            <h1 className="heading-display text-3xl md:text-5xl text-white mb-4 leading-tight">
               Three pillars. One partner.
             </h1>
             <p className="text-white/75 text-lg leading-relaxed">
-              From custom software and our bulk SMS platform to full-scale film production  we
-              deliver end-to-end solutions that help you connect, engage and grow.
+              From custom software and our bulk SMS platform to full-scale film production — we
+              deliver end-to-end solutions that help you connect, engage, and grow.
             </p>
           </motion.div>
         </div>
@@ -105,7 +105,7 @@ export default function Services() {
             {[
               { id: 'software', label: 'Software' },
               { id: 'sms', label: 'Bulk SMS' },
-              { id: 'film', label: 'Film and Media' },
+              { id: 'film', label: 'Film & Media' },
             ].map((tab) => (
               <a
                 key={tab.id}
@@ -120,7 +120,7 @@ export default function Services() {
         </div>
       </div>
 
-      {/* SOFTWARE  full section */}
+      {/* SOFTWARE — full section */}
       <section id="software" className="section-padding bg-white scroll-mt-28">
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-14 items-start mb-12">
@@ -136,7 +136,7 @@ export default function Services() {
                 Software Development
               </h2>
               <p className="text-navy/65 text-lg leading-relaxed mb-6">
-                We design and build digital products that solve real business problems from
+                We design and build digital products that solve real business problems — from
                 polished websites and mobile apps to complex internal systems and integrations.
               </p>
               <Link
@@ -179,16 +179,16 @@ export default function Services() {
                 </div>
                 <ol className="space-y-2 text-sm text-navy/65">
                   <li className="flex gap-2">
-                    <span className="text-gold font-semibold">1.</span> Discovery and requirements
+                    <span className="text-gold font-semibold">1.</span> Discovery & requirements
                   </li>
                   <li className="flex gap-2">
-                    <span className="text-gold font-semibold">2.</span> Design and architecture
+                    <span className="text-gold font-semibold">2.</span> Design & architecture
                   </li>
                   <li className="flex gap-2">
-                    <span className="text-gold font-semibold">3.</span> Build, test and iterate
+                    <span className="text-gold font-semibold">3.</span> Build, test & iterate
                   </li>
                   <li className="flex gap-2">
-                    <span className="text-gold font-semibold">4.</span> Launch, support and improve
+                    <span className="text-gold font-semibold">4.</span> Launch, support & improve
                   </li>
                 </ol>
               </div>
@@ -212,7 +212,7 @@ export default function Services() {
         </div>
       </section>
 
-      {/* SMS  full section */}
+      {/* SMS — full section */}
       <section id="sms" className="section-padding bg-navy/[0.03] scroll-mt-28">
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-14 items-start mb-12">
@@ -229,13 +229,13 @@ export default function Services() {
               </h2>
               <p className="text-navy/65 text-lg leading-relaxed mb-4">
                 Reach your audience instantly with reliable, high-delivery messaging. Ideal for
-                marketing campaigns, transactional alerts, OTPs and organizational communication.
+                marketing campaigns, transactional alerts, OTPs, and organizational communication.
               </p>
               <div className="rounded-xl border border-emerald-500/25 bg-emerald-500/10 p-4 mb-6">
                 <p className="text-navy text-sm leading-relaxed">
                   <strong className="text-emerald-800">Ready-made platform:</strong> We already have
                   our own SMS software that enables promotional campaigns, transactional messages,
-                  OTPs, reminders, school alerts and bulk messaging for businesses so you can
+                  OTPs, reminders, school alerts, and bulk messaging for businesses — so you can
                   start sending without building from scratch.
                 </p>
               </div>
@@ -261,16 +261,16 @@ export default function Services() {
                 </div>
                 <ul className="space-y-2 text-sm text-navy/65">
                   <li className="flex gap-2">
-                    <span className="text-gold">•</span> Web dashboard to create and send campaigns
+                    <span className="text-gold">•</span> Web dashboard to create & send campaigns
                   </li>
                   <li className="flex gap-2">
-                    <span className="text-gold">•</span> Contact lists and group management
+                    <span className="text-gold">•</span> Contact lists & group management
                   </li>
                   <li className="flex gap-2">
-                    <span className="text-gold">•</span> Delivery reports and analytics
+                    <span className="text-gold">•</span> Delivery reports & analytics
                   </li>
                   <li className="flex gap-2">
-                    <span className="text-gold">•</span> OTP and transactional API support
+                    <span className="text-gold">•</span> OTP & transactional API support
                   </li>
                   <li className="flex gap-2">
                     <span className="text-gold">•</span> Scheduling and recurring messages
@@ -283,7 +283,7 @@ export default function Services() {
                   <h3 className="font-semibold text-navy text-sm">Why teams use us</h3>
                 </div>
                 <p className="text-sm text-navy/65 leading-relaxed">
-                  Fast setup, reliable delivery in Tanzania, clear pricing and support from a team
+                  Fast setup, reliable delivery in Tanzania, clear pricing, and support from a team
                   that also builds the software behind the messages.
                 </p>
               </div>
@@ -307,7 +307,7 @@ export default function Services() {
         </div>
       </section>
 
-      {/* FILM  full section */}
+      {/* FILM — full section */}
       <section id="film" className="section-padding bg-white scroll-mt-28">
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-10 lg:gap-14 items-start mb-12">
@@ -320,11 +320,11 @@ export default function Services() {
                 <Film className="w-7 h-7" />
               </div>
               <h2 className="heading-display text-3xl md:text-4xl text-navy mb-4">
-                Film and Media Production
+                Film & Media Production
               </h2>
               <p className="text-navy/65 text-lg leading-relaxed mb-6">
-                From concept to final cut  we produce corporate films, commercials, event coverage,
-                music videos, documentaries and more, with professional post-production.
+                From concept to final cut — we produce corporate films, commercials, event coverage,
+                music videos, documentaries, and more, with professional post-production.
               </p>
               <Link
                 to="/start-project"
@@ -348,16 +348,16 @@ export default function Services() {
                 </div>
                 <ol className="space-y-2 text-sm text-navy/65">
                   <li className="flex gap-2">
-                    <span className="text-gold font-semibold">1.</span> Brief and creative concept
+                    <span className="text-gold font-semibold">1.</span> Brief & creative concept
                   </li>
                   <li className="flex gap-2">
-                    <span className="text-gold font-semibold">2.</span> Pre-production and planning
+                    <span className="text-gold font-semibold">2.</span> Pre-production & planning
                   </li>
                   <li className="flex gap-2">
                     <span className="text-gold font-semibold">3.</span> Shoot (camera, lighting, drone)
                   </li>
                   <li className="flex gap-2">
-                    <span className="text-gold font-semibold">4.</span> Edit, grade, graphics and delivery
+                    <span className="text-gold font-semibold">4.</span> Edit, grade, graphics & delivery
                   </li>
                 </ol>
               </div>
@@ -367,7 +367,7 @@ export default function Services() {
                   <h3 className="font-semibold text-navy text-sm">What we bring</h3>
                 </div>
                 <p className="text-sm text-navy/65 leading-relaxed">
-                  Cinematography, direction, post-production, motion graphics and a team that
+                  Cinematography, direction, post-production, motion graphics, and a team that
                   understands both storytelling and brand goals.
                 </p>
               </div>
@@ -396,7 +396,7 @@ export default function Services() {
         <div className="container-custom text-center">
           <h2 className="heading-display text-3xl text-white mb-3">Not sure where to start?</h2>
           <p className="text-white/70 mb-7 max-w-lg mx-auto">
-            Tell us about your goals and we’ll recommend the right mix of software, messaging and
+            Tell us about your goals and we’ll recommend the right mix of software, messaging, and
             media.
           </p>
           <Link to="/start-project" className="btn-primary">

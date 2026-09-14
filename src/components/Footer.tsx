@@ -162,7 +162,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-start gap-3">
                   <MapPin size={16} className="text-gold mt-0.5 shrink-0" />
-                  <span>Magomeni, Dar es Salaam, Tanzania</span>
+                  <span>Kinondoni, Dar es Salaam, Tanzania</span>
                 </li>
               </ul>
             </div>

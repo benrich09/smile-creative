@@ -56,7 +56,7 @@ const categories = [
   {
     id: 'film',
     icon: Film,
-    title: 'Film and Media',
+    title: 'Film & Media',
     desc: 'Video, photo, or full production',
   },
   {
@@ -121,7 +121,7 @@ export default function StartProject() {
             <div className="w-16 h-16 rounded-full bg-emerald-500/15 flex items-center justify-center mx-auto mb-5">
               <CheckCircle2 className="w-8 h-8 text-emerald-600" />
             </div>
-            <h1 className="text-center heading-display text-2xl text-navy mb-3">Request received</h1>
+            <h1 className="heading-display text-2xl text-navy mb-3">Request received</h1>
             <p className="text-navy/65 mb-6 leading-relaxed">
               Thank you. Our team will review your project request and contact you within one
               business day via email or WhatsApp.
@@ -153,7 +153,7 @@ export default function StartProject() {
               Start a project
             </h1>
             <p className="text-white/75 leading-relaxed">
-              Answer a few questions so we can understand your needs  whether it’s a full build,
+              Answer a few questions so we can understand your needs — whether it’s a full build,
               SMS access, film production, or a collaboration.
             </p>
           </motion.div>
@@ -272,7 +272,7 @@ export default function StartProject() {
                 >
                   <h2 className="text-xl font-semibold text-navy mb-2">Scope & collaboration</h2>
                   <p className="text-navy/60 text-sm mb-4">
-                    Optional details that help us plan  you can skip any field.
+                    Optional details that help us plan — you can skip any field.
                   </p>
                   <div>
                     <label className="block text-sm font-medium text-navy mb-1.5">
@@ -305,7 +305,7 @@ export default function StartProject() {
                     >
                       <option value="">Select</option>
                       <option value="yes">Yes, interested in collaborating</option>
-                      <option value="client">No  client project only</option>
+                      <option value="client">No — client project only</option>
                       <option value="maybe">Open to discussing</option>
                     </select>
                   </div>

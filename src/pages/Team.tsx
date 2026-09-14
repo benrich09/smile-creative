@@ -14,7 +14,7 @@ const team: TeamMember[] = [
   {
     name: 'Michael Richard',
     role: 'Founder / Creative Director',
-    bio: 'Leads company vision, creative direction and major projects. Passionate about blending technology with storytelling.',
+    bio: 'Leads company vision, creative direction, and major projects. Passionate about blending technology with storytelling.',
     initials: 'MR',
     color: 'bg-gold text-navy',
   },
@@ -28,28 +28,28 @@ const team: TeamMember[] = [
   {
     name: 'Michael Richard',
     role: 'Film Director / Producer',
-    bio: 'Oversees storytelling, production and creative execution. Brings cinematic vision to every project.',
+    bio: 'Oversees storytelling, production, and creative execution. Brings cinematic vision to every project.',
     initials: 'MR',
     color: 'bg-violet-500 text-white',
   },
   {
-    name: 'Krane',
-    role: 'Cinematographer / Photographer',
-    bio: 'Handles camera, lighting, composition and visual production with an eye for emotion and detail.',
-    initials: 'KR',
+    name: 'Mosses Togo',
+    role: 'Photographer',
+    bio: 'Handles camera, lighting, composition, and visual production with an eye for emotion and detail.',
+    initials: 'MT',
     color: 'bg-rose-500 text-white',
   },
   {
-    name: 'Krane',
-    role: 'Editor / Post-Production',
-    bio: 'Handles editing, color grading, motion graphics and finishing to bring stories to life.',
-    initials: 'KR',
+    name: 'Pares Lucian',
+    role: 'Graphics',
+    bio: 'Creates motion graphics, visual design, and post-production finishes that bring stories and brands to life.',
+    initials: 'PL',
     color: 'bg-emerald-500 text-white',
   },
   {
     name: 'Ben Rich',
-    role: 'SMS AND Digital Solutions',
-    bio: 'Manages messaging solutions, campaigns and communication platforms for maximum reach and impact.',
+    role: 'SMS & Digital Solutions',
+    bio: 'Manages messaging solutions, campaigns, and communication platforms for maximum reach and impact.',
     initials: 'BR',
     color: 'bg-teal-600 text-white',
   },
@@ -65,11 +65,11 @@ export default function Team() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-center heading-display text-3xl md:text-5xl text-white mb-4 leading-tight">
+            <h1 className="heading-display text-3xl md:text-5xl text-white mb-4 leading-tight">
               The people behind the work
             </h1>
             <p className="text-white/75 text-lg leading-relaxed">
-              A multidisciplinary team of developers, producers, cinematographers and communication
+              A multidisciplinary team of developers, producers, cinematographers, and communication
               specialists united by craft and client success.
             </p>
           </motion.div>

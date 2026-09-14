@@ -44,7 +44,7 @@ const values = [
   {
     icon: Target,
     title: 'Customer Focus',
-    desc: 'Your goals drive our process  we listen, adapt, and deliver.',
+    desc: 'Your goals drive our process — we listen, adapt, and deliver.',
   },
   {
     icon: RefreshCw,
@@ -67,7 +67,7 @@ const pillars = [
   {
     icon: Film,
     title: 'Film',
-    text: 'Stories that look and feel professional  from shoot to final cut.',
+    text: 'Stories that look and feel professional — from shoot to final cut.',
   },
 ]
 
@@ -85,13 +85,13 @@ export default function About() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-center heading-display text-3xl md:text-5xl text-white mb-5 leading-tight">
+            <h1 className="heading-display text-3xl md:text-5xl text-white mb-5 leading-tight">
               Creative technology. Real impact.
             </h1>
             <p className="text-white/75 text-lg leading-relaxed">
               Smile Creative is a creative technology company based in Dar es Salaam. We develop
               digital solutions, enable effective communication through our bulk SMS platform, and
-              produce high-quality visual content helping clients build stronger brands and
+              produce high-quality visual content — helping clients build stronger brands and
               achieve their goals.
             </p>
           </motion.div>
@@ -122,7 +122,7 @@ export default function About() {
         </div>
       </section>
 
-      {/* Mission and Vision */}
+      {/* Mission & Vision */}
       <section className="section-padding bg-navy/[0.03]">
         <div className="container-custom">
           <div className="grid md:grid-cols-2 gap-6">
@@ -203,6 +203,19 @@ export default function About() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="section-padding gradient-navy">
+        <div className="container-custom text-center">
+          <h2 className="heading-display text-3xl text-white mb-3">Ready to work together?</h2>
+          <p className="text-white/70 mb-7 max-w-lg mx-auto">
+            Let’s discuss how Smile Creative can help you connect, engage, and grow.
+          </p>
+          <Link to="/start-project" className="btn-primary">
+            Start a Project <ArrowRight size={18} />
+          </Link>
         </div>
       </section>
     </div>

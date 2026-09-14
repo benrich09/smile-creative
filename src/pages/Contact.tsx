@@ -59,11 +59,11 @@ export default function Contact() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <h1 className="text-center heading-display text-3xl md:text-5xl text-white mb-4 leading-tight">
+            <h1 className="heading-display text-3xl md:text-5xl text-white mb-4 leading-tight">
               Let’s start a conversation
             </h1>
             <p className="text-white/75 text-lg leading-relaxed">
-              Projects, support, suggestions, or partnership  tell us what you need and we’ll get
+              Projects, support, suggestions, or partnership — tell us what you need and we’ll get
               back to you shortly.
             </p>
           </motion.div>
@@ -283,7 +283,7 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="text-navy/50 text-xs uppercase tracking-wide mb-0.5">Location</p>
-                      <p className="text-navy font-medium">Magomeni, Dar es Salaam, Tanzania</p>
+                      <p className="text-navy font-medium">Kinondoni, Dar es Salaam, Tanzania</p>
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
@@ -314,7 +314,7 @@ export default function Contact() {
                   <Instagram size={18} className="text-gold" />
                   <div>
                     <p className="text-sm font-medium text-navy">@smilestudio.tz</p>
-                    <p className="text-xs text-navy/50">Studio and film</p>
+                    <p className="text-xs text-navy/50">Studio & film</p>
                   </div>
                 </a>
                 <a
@@ -326,7 +326,7 @@ export default function Contact() {
                   <Instagram size={18} className="text-gold" />
                   <div>
                     <p className="text-sm font-medium text-navy">@smile.notify</p>
-                    <p className="text-xs text-navy/50">SMS and digital</p>
+                    <p className="text-xs text-navy/50">SMS & digital</p>
                   </div>
                 </a>
               </motion.div>

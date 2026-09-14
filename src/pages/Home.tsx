@@ -26,21 +26,21 @@ const services = [
   {
     icon: Code2,
     title: 'Software Development',
-    desc: 'Custom websites, web apps, mobile applications, business systems and digital platforms built for growth.',
+    desc: 'Custom websites, web apps, mobile applications, business systems, and digital platforms built for growth.',
     path: '/services#software',
     accent: 'bg-blue-500/15 text-blue-700',
   },
   {
     icon: MessageSquare,
     title: 'Bulk SMS Services',
-    desc: 'Our ready-made SMS platform delivers marketing, OTPs, alerts and organizational messaging at scale.',
+    desc: 'Our ready-made SMS platform delivers marketing, OTPs, alerts, and organizational messaging at scale.',
     path: '/services#sms',
     accent: 'bg-emerald-500/15 text-emerald-700',
   },
   {
     icon: Film,
-    title: 'Film and Media Production',
-    desc: 'Corporate videos, commercials, events, music videos, documentaries and full post-production.',
+    title: 'Film & Media Production',
+    desc: 'Corporate videos, commercials, events, music videos, documentaries, and full post-production.',
     path: '/services#film',
     accent: 'bg-violet-500/15 text-violet-700',
   },
@@ -52,13 +52,13 @@ const reasons = [
   { icon: Award, text: 'Professional production quality' },
   { icon: Sparkles, text: 'Practical solutions for real business needs' },
   { icon: Headphones, text: 'Reliable communication and support' },
-  { icon: Shield, text: 'One partner for digital, SMS and media' },
+  { icon: Shield, text: 'One partner for digital, SMS & media' },
 ]
 
 export default function Home() {
   return (
     <div>
-      {/* Hero  two column */}
+      {/* Hero — two column */}
       <section className="relative min-h-[calc(100vh-3.5rem)] md:min-h-[calc(100vh-4rem)] flex items-center gradient-navy overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute -top-32 -right-32 w-[28rem] h-[28rem] rounded-full bg-gold/[0.07] blur-3xl" />
@@ -72,11 +72,11 @@ export default function Home() {
               <motion.h1
                 custom={0}
                 variants={fadeUp}
-                className=" heading-display text-3xl sm:text-4xl lg:text-[2.85rem] text-white leading-[1.15] mb-6"
+                className="heading-display text-3xl sm:text-4xl lg:text-[2.85rem] text-white leading-[1.15] mb-6"
               >
                 Turning ideas into{' '}
                 <span className="text-gold">digital experiences</span>, powerful
-                communication and compelling stories.
+                communication & compelling stories.
               </motion.h1>
 
               <motion.div custom={1} variants={fadeUp} className="flex flex-wrap gap-3">
@@ -89,9 +89,30 @@ export default function Home() {
                 </Link>
               </motion.div>
 
+              <motion.div
+                custom={2}
+                variants={fadeUp}
+                className="mt-10 flex flex-wrap gap-2"
+              >
+                {[
+                  { label: 'Software', path: '/services#software' },
+                  { label: 'Bulk SMS', path: '/services#sms' },
+                  { label: 'Film & Media', path: '/services#film' },
+                ].map((item) => (
+                  <Link
+                    key={item.label}
+                    to={item.path}
+                    className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10
+                               text-white/75 text-sm hover:bg-white/10 hover:text-gold hover:border-gold/30 transition-all"
+                  >
+                    {item.label}
+                    <ArrowRight size={13} className="opacity-60" />
+                  </Link>
+                ))}
+              </motion.div>
             </motion.div>
 
-            {/* Right  description card */}
+            {/* Right — description card */}
             <motion.div
               initial={{ opacity: 0, x: 32 }}
               animate={{ opacity: 1, x: 0 }}
@@ -99,11 +120,13 @@ export default function Home() {
               className="relative"
             >
               <div className="relative rounded-2xl border border-white/10 bg-white/[0.04] backdrop-blur-sm p-7 md:p-9 shadow-soft-lg">
-                
+                <div className="absolute -top-3 left-7 px-3 py-0.5 rounded-full bg-gold/20 text-gold text-xs font-medium tracking-wide">
+                  Who we are
+                </div>
                 <p className="text-white/85 text-base md:text-lg leading-relaxed mt-2">
-                  Smile Creative builds software, runs reliable bulk SMS campaigns and produces
+                  Smile Creative builds software, runs reliable bulk SMS campaigns, and produces
                   professional film and media for businesses that want to{' '}
-                  <span className="text-gold font-medium">connect, engage and grow</span>.
+                  <span className="text-gold font-medium">connect, engage, and grow</span>.
                 </p>
                 <div className="mt-6 pt-5 border-t border-white/10 grid grid-cols-3 gap-4 text-center">
                   <div>
@@ -138,7 +161,7 @@ export default function Home() {
               What we do
             </h2>
             <p className="text-navy/65 text-lg leading-relaxed">
-              Technology and creativity working together so your brand can operate smarter and
+              Technology and creativity working together — so your brand can operate smarter and
               connect more effectively.
             </p>
           </motion.div>
